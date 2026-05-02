@@ -1,0 +1,70 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.venv*/
+__pypackages__/
+
+# Package distribution
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+
+# Pytest / test output
+.pytest_cache/
+.cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment and secret files
+.env
+.env.*
+*.env
+*.secret
+*.key
+*.pem
+*.crt
+.secrets/
+
+# Frontier / OpenRouter local config or credentials
+openrouter*.json
+frontier*.json
+openrouter*.yaml
+frontier*.yaml
+openrouter*.yml
+frontier*.yml
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Misc
+*.swp
+*.tmp
+*~

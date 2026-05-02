@@ -1,0 +1,6 @@
+numpy
+openai>=1.0.0
+pandas
+tqdm
+datasets
+matplotlib
