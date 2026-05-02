@@ -3,7 +3,7 @@
 This project reproduces the paper:
 
 > **Improving Factuality and Reasoning in Language Models through Multiagent Debate**  
-> https://composable-models.github.io/llm_debate/
+> [Paper Code](https://composable-models.github.io/llm_debate/)
 
 ## Overview
 
@@ -17,15 +17,21 @@ The goal is to evaluate whether collaborative reasoning improves accuracy and re
 
 ## Setup
 
-1. Create a dedicated Python environment and activate it:
+Create a dedicated Python environment and activate it:
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 ```
 
-2. Install the required dependencies:
+Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Run then open in Browser
+
+```bash
+jupyter notebook
 ```
