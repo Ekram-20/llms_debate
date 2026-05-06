@@ -6,3 +6,4 @@ datasets
 matplotlib
 notebook
 jupyter
+python-dotenv
